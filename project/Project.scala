@@ -539,7 +539,7 @@ object Zipkin extends Build {
       twitterServer
     )
   ).dependsOn(
-    tracegen, web, anormDB, query,
+    tracegen, web, mongodb, query,
     receiverScribe, zookeeper
   )
 }

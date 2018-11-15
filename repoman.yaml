@@ -1,4 +1,6 @@
 ---
 repository:
+  jira: OHLP
+  live: 'yes'
   status: active
   team: Ops
